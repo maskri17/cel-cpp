@@ -12,7 +12,7 @@ This codelab is aimed at developers who would like to learn CEL to use services
 that already support CEL. This Codelab covers common use cases. This codelab
 doesn't cover how to integrate CEL into your own project. For a more in-depth
 look at the language, semantics, and features see the
-[CEL Language Definition on GitHub](https://github.com/google/cel-spec).
+[CEL Language Definition on GitHub](https://github.com/cel-expr/cel-spec).
 
 Some key areas covered are:
 
@@ -64,7 +64,7 @@ solutions are available in the `codelab/solution` folder of the same repo.
 Clone and cd into the repo:
 
 ```
-git clone git@github.com:google/cel-cpp.git
+git clone https://github.com/cel-expr/cel-cpp.git
 cd cel-cpp
 ```
 
@@ -97,7 +97,7 @@ GitHub repository, you can use `git_override`:
 bazel_dep(name = "cel-cpp", version = "0.0.0")
 git_override(
     module_name = "cel-cpp",
-    remote = "https://github.com/google/cel-cpp.git",
+    remote = "https://github.com/cel-expr/cel-cpp.git",
     commit = "<commit_hash>",
 )
 ```
